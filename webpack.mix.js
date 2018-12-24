@@ -11,5 +11,13 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+// Assets Default
+mix.js('resources/js/jquery-3.3.1.min.js', 'public/js')
+    .js('resources/js/materialize.js', 'public/js')
+    .js('resources/js/app.js', 'public/js')
+    .js('resources/js/init.js', 'public/js')
+
+    .styles('resources/css/psferraz.css', 'public/css/psferraz.css')
+    .styles('resources/css/materialize.css', 'public/css/materialize.css')
+
+    .sass('resources/sass/app.scss', 'public/css');

@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav {
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+nav .brand-logo {
+    color: #424242;
+}
+
+nav ul a {
+    color: #616161;
+}
+
+nav ul a:hover {
+    color: #7c4dff;
+    background-color: transparent;
+}
+
+.btn-floating {
+    background-color: #616161;
+}
+
+.btn-floating:hover {
+    background-color: #7c4dff;
+}
+
+footer {
+    padding: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.text-middle {
+    vertical-align: middle;
+}
+
+.text-bottom {
+    vertical-align: bottom;
+}
+
+.text-top {
+    vertical-align: top;
+}
+
+.btn:focus, .btn-large:focus, .btn-small:focus,
+.btn-floating:focus {
+  background-color: #7c4dff;
+}
