@@ -62,7 +62,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col s4">
+                    <div class="col s12">
                         <a href="" class="right grey-text text-darken-2">Ver portfólio...</a>
                     </div>
                 </div>
