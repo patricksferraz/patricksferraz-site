@@ -8,11 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     {{-- <link rel="icon" type="image/x-icon" href="{{ mix('favicon.ico') }}"> --}}
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="{{ url('https://fonts.googleapis.com/icon?family=Material+Icons') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url('https://use.fontawesome.com/releases/v5.6.3/css/all.css') }}" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     @section('headCss')
         {{-- <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}"/> --}}
         <link rel="stylesheet" type="text/css" href="{{ mix('css/materialize.css') }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ mix('css/fonts-google.css') }}"/>
         <link rel="stylesheet" type="text/css" href="{{ mix('css/psferraz.css') }}"/>
     @show
 
