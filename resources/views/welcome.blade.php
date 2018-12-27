@@ -85,7 +85,7 @@
                     </p>
                 </div>
                 <div class="col s4 margin-top-2">
-                    <a class="btn waves-effect waves-light red">Contato</a>
+                    <a class="btn waves-effect waves-light red darken-3">Contato</a>
                 </div>
             </div>
         </div>
