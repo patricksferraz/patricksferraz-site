@@ -14,7 +14,7 @@
 
         <div class="row">
 
-            <div class="col s4">
+            <div class="col m4">
                 <img src="{{ mix('img/patrick.jpg') }}" alt="Patrick Silva Ferraz" class="circle responsive-img">
                 <h6><b>Patrick Silva Ferraz</b></h6>
                 <p>
@@ -28,7 +28,7 @@
                 </div>
             </div>
 
-            <div class="col s8">
+            <div class="col m8">
                 <blockquote>
                     <h6><b>Sobre</b></h6>
                 </blockquote>
@@ -62,9 +62,6 @@
                 </div>
 
                 <div class="row">
-                    <div class="col s8 left">
-                        Tecnologias:
-                    </div>
                     <div class="col s4">
                         <a href="" class="right grey-text text-darken-2">Ver portfólio...</a>
                     </div>
