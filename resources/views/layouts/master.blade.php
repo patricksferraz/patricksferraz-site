@@ -39,6 +39,7 @@
         {{-- <script type="text/javascript" src="{{ mix('js/app.js') }}"></script> --}}
         <script type="text/javascript" src="{{ mix('js/jquery-3.3.1.min.js') }}"></script>
         <script type="text/javascript" src="{{ mix('js/materialize.js') }}"></script>
+        <script type="text/javascript" src="{{ mix('js/init.js') }}"></script>
     @show
 
 </body>

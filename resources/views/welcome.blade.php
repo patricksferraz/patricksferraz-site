@@ -82,7 +82,7 @@
                     </p>
                 </div>
                 <div class="col s4 margin-top-2">
-                    <a class="btn waves-effect waves-light red darken-3">Contato</a>
+                    <a href="{{ route('l.contact') }}" class="btn waves-effect waves-light red darken-3">Contato</a>
                 </div>
             </div>
         </div>

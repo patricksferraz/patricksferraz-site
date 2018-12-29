@@ -19,6 +19,9 @@ Route::group(['prefix' => parseLocale(),
     Route::get('/', 'WelcomeController@home')
         ->name('home');
 
+    Route::get('/contact', 'WelcomeController@contact')
+        ->name('contact');
+
     // Route::post('/', 'WelcomeController@searchHash')
     //     ->name('search_hash');
 
