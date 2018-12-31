@@ -42,28 +42,36 @@
                 <blockquote>
                     <h6><b>Desenvolvimento de sistemas</b></h6>
                 </blockquote>
-                <div class="row center deep-purple-text text-accent-1">
+                <div class="row center">
                     <div class="col s3">
-                        <i class="material-icons circle icon-border">devices</i><br>
-                        Web
+                        <a href="" class="grey-text text-darken-1 grey-link">
+                            <i class="material-icons circle icon-border">devices</i><br>
+                            Web
+                        </a>
                     </div>
                     <div class="col s3">
-                        <i class="material-icons circle icon-border">devices_other</i><br>
-                        Móveis
+                        <a href="" class="grey-text text-darken-1 grey-link">
+                            <i class="material-icons circle icon-border">devices_other</i><br>
+                            Móveis
+                        </a>
                     </div>
                     <div class="col s3">
-                        <i class="material-icons circle icon-border">developer_board</i><br>
-                        Embarcados
+                        <a href="" class="grey-text text-darken-1 grey-link">
+                            <i class="material-icons circle icon-border">developer_board</i><br>
+                            Embarcados
+                        </a>
                     </div>
                     <div class="col s3">
-                        <i class="material-icons circle icon-border">lightbulb_outline</i><br>
-                        Use sua imaginação
+                        <a href="" class="grey-text text-darken-1 grey-link">
+                            <i class="material-icons circle icon-border">lightbulb_outline</i><br>
+                            Use sua imaginação
+                        </a>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col s12">
-                        <a href="" class="right grey-text text-darken-2">Ver portfólio...</a>
+                        <a href="" class="right grey-text text-darken-1 grey-link">Ver portfólio...</a>
                     </div>
                 </div>
             </div>

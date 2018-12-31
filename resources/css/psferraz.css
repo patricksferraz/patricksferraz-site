@@ -19,7 +19,7 @@ nav .brand-logo {
 }
 
 nav ul a {
-    color: #616161;
+    color: #757575;
 }
 
 nav ul a:hover {
@@ -28,7 +28,7 @@ nav ul a:hover {
 }
 
 .btn-floating {
-    background-color: #616161;
+    background-color: #757575;
 }
 
 .btn-floating:hover {
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-icons > a > i.fab,
 a > .social-icon {
-    color: #616161;
+    color: #757575;
 }
 
 .social-icons.em2 > a > i.fab,
@@ -86,7 +86,7 @@ a > .social-icon {
 
 .social-icons > a > i.fab:hover,
 a > .social-icon:hover,
-a.grey-text.text-darken-2:hover {
+a.grey-link:hover {
     color: #424242 !important;
 }
 

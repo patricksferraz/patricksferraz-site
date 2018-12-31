@@ -22,20 +22,4 @@ Route::group(['prefix' => parseLocale(),
     Route::get('/contact', 'WelcomeController@contact')
         ->name('contact');
 
-    // Route::post('/', 'WelcomeController@searchHash')
-    //     ->name('search_hash');
-
-    // Route::group(['prefix' => 'research_forms',
-    //     'as' => 'research_forms.'], function () {
-
-    //     Route::get('/{schoolHash}', 'ResearchFormsController@index')
-    //         ->where(['schoolHash' => '[a-zA-Z0-9]+'])
-    //         ->name('index');
-
-    //     Route::get('/{page}', 'ResearchFormsController@showPage')
-    //         ->where(['page' => '[0-9]+'])
-    //         ->name('show_page');
-
-    // });
-
 });

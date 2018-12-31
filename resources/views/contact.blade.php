@@ -21,7 +21,7 @@
         <hr class="line">
 
         <div class="row">
-            <form class="col s12 m9 offset-m1 grey-text text-darken-2">
+            <form class="col s12 m9 offset-m1 grey-text text-darken-1">
                 <div class="row">
                     <div class="input-field col s12 m12">
                         <i class="material-icons prefix">account_circle</i>
