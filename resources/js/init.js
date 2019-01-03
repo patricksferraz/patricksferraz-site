@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $('input, textarea').characterCounter();
+    M.AutoInit();
 });

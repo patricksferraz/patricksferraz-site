@@ -3,7 +3,7 @@
 function parseLocale()
 {
     // Busca a primeira rota da URL
-    $locale = Request::segment(1);
+    $locale = request()->segment(1);
 
     // Define os locales da aplicação
     $languages = ['br', 'en'];

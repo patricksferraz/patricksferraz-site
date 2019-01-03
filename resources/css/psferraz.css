@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #about,
 #contact {
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 .social-icons > a > i.fab,
@@ -136,15 +136,25 @@ hr {
 }
 
 /* label focus color */
-.input-field input:focus + label {
+.input-field input:focus + label,
+.input-field textarea:focus + label {
     color: #7c4dff !important;
 }
 /* label underline focus color */
-.input-field input:focus {
+.input-field input:focus,
+.input-field textarea:focus {
     border-bottom: 1px solid #7c4dff !important;
     box-shadow: 0 1px 0 0 #7c4dff !important;
 }
 /* icon prefix focus color */
 .input-field .prefix.active {
     color: #7c4dff;
+}
+
+.btn {
+    background-color: #7c4dff;
+}
+
+.btn:hover {
+    background-color: #b388ff;
 }
