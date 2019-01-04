@@ -19,9 +19,19 @@ Route::group(['prefix' => parseLocale(),
     Route::get('/', 'WelcomeController@home')
         ->name('home');
 
-    Route::get('/contact', 'WelcomeController@contact')
+    // Formulário de contato
+    Route::get('contact', 'WelcomeController@contact')
         ->name('contact');
-    Route::post('/contact', 'WelcomeController@postContact')
+    Route::post('contact', 'WelcomeController@postContact')
         ->name('postContact');
+
+    // Rotas dos projetos
+    Route::group(['prefix' => 'projects',
+        'as' => 'projects.'], function () {
+
+        Route::get('/', 'ProjectsController@index')
+            ->name('index');
+
+    });
 
 });

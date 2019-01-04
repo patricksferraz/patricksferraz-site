@@ -7,7 +7,7 @@
     <meta name="application-name" content = "{{ config('app.name') }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    {{-- <link rel="icon" type="image/x-icon" href="{{ mix('favicon.ico') }}"> --}}
+    <link rel="icon" type="image/png" href="{{ mix('favicon.png') }}">
     <link href="{{ url('https://fonts.googleapis.com/icon?family=Material+Icons') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ url('https://use.fontawesome.com/releases/v5.6.3/css/all.css') }}" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
