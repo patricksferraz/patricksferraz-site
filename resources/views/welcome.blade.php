@@ -18,8 +18,8 @@
                 <img src="{{ mix('img/patrick.jpg') }}" alt="Patrick Silva Ferraz" class="circle responsive-img">
                 <h6><b>Patrick Silva Ferraz</b></h6>
                 <p>
-                    Mestrando em Ciência de Dados - UFBA<br>
-                    Bacharel em Ciência da Computação - UESC
+                    @lang('texts.grade.master')<br>
+                    @lang('texts.grade.bachelor')
                 </p>
 
                 <div class="grey-text text-darken-3">
@@ -30,48 +30,51 @@
 
             <div class="col m8">
                 <blockquote>
-                    <h6><b>Sobre</b></h6>
+                    <h6><b>
+                        @lang('title.about')
+                    </b></h6>
                 </blockquote>
                 <p>
-                    Entusiasta por tecnologia, apaixonado pelo desenvolvimento de softwares e
-                    sistemas autônomos, sempre buscando técnicas modernas para padronização
-                    e melhoria de desempenho. A procura de novos desafios que possibilitem
-                    a inovação e o rompimento de barreiras. A criatividade não tolera limites.
+                    @lang('texts.my_description')
                 </p>
 
                 <blockquote>
-                    <h6><b>Desenvolvimento de sistemas</b></h6>
+                    <h6><b>
+                        @lang('title.system_development')
+                    </b></h6>
                 </blockquote>
                 <div class="row center">
                     <div class="col s3">
                         <a href="" class="grey-text text-darken-1 grey-link">
                             <i class="material-icons circle icon-border">devices</i><br>
-                            Web
+                            @lang('button.web')
                         </a>
                     </div>
                     <div class="col s3">
                         <a href="" class="grey-text text-darken-1 grey-link">
                             <i class="material-icons circle icon-border">devices_other</i><br>
-                            Móveis
+                            @lang('button.mobile')
                         </a>
                     </div>
                     <div class="col s3">
                         <a href="" class="grey-text text-darken-1 grey-link">
                             <i class="material-icons circle icon-border">developer_board</i><br>
-                            Embarcados
+                            @lang('button.embedded')
                         </a>
                     </div>
                     <div class="col s3">
                         <a href="" class="grey-text text-darken-1 grey-link">
                             <i class="material-icons circle icon-border">lightbulb_outline</i><br>
-                            Use sua imaginação
+                            @lang('button.use_imagination')
                         </a>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col s12">
-                        <a href="" class="right grey-text text-darken-1 grey-link">Ver portfólio...</a>
+                        <a href="" class="right grey-text text-darken-1 grey-link">
+                            @lang('button.see_portfolio')
+                        </a>
                     </div>
                 </div>
             </div>
@@ -84,13 +87,17 @@
         <div class="container">
             <div class="row">
                 <div class="col s8">
-                    <h6 class="red-text text-darken-3"><b>Precisa de mais informações?</b></h6>
+                    <h6 class="red-text text-darken-3"><b>
+                        @lang('title.more_information')
+                    </b></h6>
                     <p>
-                        Estou a disposição para atendê-lo. Entre em contato e realize um orçamento.
+                        @lang('texts.more_information_description')
                     </p>
                 </div>
                 <div class="col s4 margin-top-2">
-                    <a href="{{ route('l.contact') }}" class="btn waves-effect waves-light red darken-3">Contato</a>
+                    <a href="{{ route('l.contact') }}" class="btn waves-effect waves-light red darken-3">
+                        @lang('button.contact')
+                    </a>
                 </div>
             </div>
         </div>
