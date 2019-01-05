@@ -15,7 +15,7 @@
         <div class="row">
 
             <div class="col m4">
-                <img src="{{ asset('img/patrick.png') }}" alt="Patrick Silva Ferraz" class="circle responsive-img">
+                <img src="{{ asset('img/patrick.jpg') }}" alt="Patrick Silva Ferraz" class="circle responsive-img">
                 <h6><b>Patrick Silva Ferraz</b></h6>
                 <p>
                     @lang('texts.grade.master')<br>
