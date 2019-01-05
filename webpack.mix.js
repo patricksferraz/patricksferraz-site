@@ -12,14 +12,21 @@ const mix = require('laravel-mix');
  */
 
 // Assets Default
-mix.js('resources/js/jquery-3.3.1.js', 'public/js')
-    .js('resources/js/materialize.js', 'public/js')
-    .js('resources/js/init.js', 'public/js')
+mix.scripts([
+        'resources/js/jquery-3.3.1.js',
+        'resources/js/materialize.js',
+        'resources/js/init.js'
+    ], 'public/js/all.js')
 
-    .styles('resources/css/psferraz.css', 'public/css/psferraz.css')
-    .styles('resources/css/materialize.css', 'public/css/materialize.css')
-    .styles('resources/css/fonts-google.css', 'public/css/fonts-google.css')
+    .styles([
+        'resources/css/materialize.css',
+        'resources/css/fonts-google.css',
+        'resources/css/psferraz.css'
+    ], 'public/css/all.css')
 
-    .copy('resources/img/favicon.png', 'public/favicon.png')
-    .copy('resources/img/patrick.jpg', 'public/img/patrick.jpg')
-    .copy('resources/img/logo.png', 'public/img/logo.png');
+    .copy('resources/favicon.png', 'public')
+    .copyDirectory('resources/img', 'public/img');
+
+if (mix.inProduction()) {
+    mix.version();
+}

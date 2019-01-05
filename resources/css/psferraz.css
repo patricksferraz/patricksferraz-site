@@ -10,12 +10,10 @@ main {
 
 nav {
     background-color: #fff;
-    -webkit-box-shadow: none;
-    box-shadow: none;
 }
 
 nav .brand-logo {
-    margin-top: 6px;
+    margin-top: 2px;
 }
 
 nav ul a {
@@ -51,8 +49,17 @@ footer a:hover {
     vertical-align: bottom;
 }
 
+#n-logo {
+    font-size: large;
+    vertical-align: super;
+}
+
 .text-top {
     vertical-align: top;
+}
+
+.text-super {
+    vertical-align: super;
 }
 
 .btn:focus, .btn-large:focus, .btn-small:focus,

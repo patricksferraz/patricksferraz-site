@@ -1,11 +1,5 @@
 {
-    "/js/init.js": "/js/init.js",
-    "/js/jquery-3.3.1.js": "/js/jquery-3.3.1.js",
-    "/js/materialize.js": "/js/materialize.js",
-    "/css/psferraz.css": "/css/psferraz.css",
-    "/css/materialize.css": "/css/materialize.css",
-    "/css/fonts-google.css": "/css/fonts-google.css",
-    "/favicon.png": "/favicon.png",
-    "/img/patrick.jpg": "/img/patrick.jpg",
-    "/img/logo.png": "/img/logo.png"
+    "/js/all.js": "/js/all.js",
+    "/css/all.css": "/css/all.css",
+    "/favicon.png": "/favicon.png"
 }

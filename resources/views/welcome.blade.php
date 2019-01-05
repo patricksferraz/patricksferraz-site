@@ -15,7 +15,7 @@
         <div class="row">
 
             <div class="col m4">
-                <img src="{{ mix('img/patrick.jpg') }}" alt="Patrick Silva Ferraz" class="circle responsive-img">
+                <img src="{{ asset('img/patrick.png') }}" alt="Patrick Silva Ferraz" class="circle responsive-img">
                 <h6><b>Patrick Silva Ferraz</b></h6>
                 <p>
                     @lang('texts.grade.master')<br>
@@ -31,7 +31,7 @@
             <div class="col m8">
                 <blockquote>
                     <h6><b>
-                        @lang('title.about')
+                        @lang('titles.about')
                     </b></h6>
                 </blockquote>
                 <p>
@@ -40,32 +40,32 @@
 
                 <blockquote>
                     <h6><b>
-                        @lang('title.system_development')
+                        @lang('titles.system_development')
                     </b></h6>
                 </blockquote>
                 <div class="row center">
                     <div class="col s3">
                         <a href="" class="grey-text text-darken-1 grey-link">
                             <i class="material-icons circle icon-border">devices</i><br>
-                            @lang('button.web')
+                            @lang('buttons.web')
                         </a>
                     </div>
                     <div class="col s3">
                         <a href="" class="grey-text text-darken-1 grey-link">
                             <i class="material-icons circle icon-border">devices_other</i><br>
-                            @lang('button.mobile')
+                            @lang('buttons.mobile')
                         </a>
                     </div>
                     <div class="col s3">
                         <a href="" class="grey-text text-darken-1 grey-link">
                             <i class="material-icons circle icon-border">developer_board</i><br>
-                            @lang('button.embedded')
+                            @lang('buttons.embedded')
                         </a>
                     </div>
                     <div class="col s3">
                         <a href="" class="grey-text text-darken-1 grey-link">
                             <i class="material-icons circle icon-border">lightbulb_outline</i><br>
-                            @lang('button.use_imagination')
+                            @lang('buttons.use_imagination')
                         </a>
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                 <div class="row">
                     <div class="col s12">
                         <a href="" class="right grey-text text-darken-1 grey-link">
-                            @lang('button.see_portfolio')
+                            @lang('buttons.see_portfolio')
                         </a>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
             <div class="row">
                 <div class="col s8">
                     <h6 class="red-text text-darken-3"><b>
-                        @lang('title.more_information')
+                        @lang('titles.more_information')
                     </b></h6>
                     <p>
                         @lang('texts.more_information_description')
@@ -96,7 +96,7 @@
                 </div>
                 <div class="col s4 margin-top-2">
                     <a href="{{ route('l.contact') }}" class="btn waves-effect waves-light red darken-3">
-                        @lang('button.contact')
+                        @lang('buttons.contact')
                     </a>
                 </div>
             </div>

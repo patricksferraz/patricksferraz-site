@@ -12,9 +12,7 @@
     <link rel="stylesheet" href="{{ url('https://use.fontawesome.com/releases/v5.6.3/css/all.css') }}" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     @section('headCss')
-        <link rel="stylesheet" type="text/css" href="{{ mix('css/materialize.css') }}"/>
-        <link rel="stylesheet" type="text/css" href="{{ mix('css/fonts-google.css') }}"/>
-        <link rel="stylesheet" type="text/css" href="{{ mix('css/psferraz.css') }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ mix('css/all.css') }}"/>
     @show
 
     <title>patricksferraz | @yield('title', 'Home Page')</title>
@@ -35,9 +33,7 @@
     @show
 
     @section('scripts')
-        <script type="text/javascript" src="{{ mix('js/jquery-3.3.1.js') }}"></script>
-        <script type="text/javascript" src="{{ mix('js/materialize.js') }}"></script>
-        <script type="text/javascript" src="{{ mix('js/init.js') }}"></script>
+        <script type="text/javascript" src="{{ mix('js/all.js') }}"></script>
     @show
 
 </body>
