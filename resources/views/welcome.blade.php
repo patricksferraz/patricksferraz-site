@@ -15,7 +15,11 @@
         <div class="row">
 
             <div class="col m4">
-                <img src="{{ asset('img/patrick.jpg') }}" alt="Patrick Silva Ferraz" class="circle responsive-img">
+                <div class="row">
+                    <div class="col s8 offset-s2">
+                        <img src="{{ asset('img/patrick.jpg') }}" alt="Patrick Silva Ferraz" class="circle responsive-img">
+                    </div>
+                </div>
                 <h6><b>Patrick Silva Ferraz</b></h6>
                 <p>
                     @lang('texts.grade.master')<br>
