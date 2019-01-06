@@ -27,7 +27,7 @@
                 </p>
 
                 <div class="grey-text text-darken-3">
-                    <i class="fas fa-envelope-square social-icon em1h text-middle"></i> patrick.ferraz@outlook.com<br>
+                    <i class="fas fa-envelope-square social-icon em1h text-middle"></i> devferraz@gmail.com<br>
                     <i class="fab fa-whatsapp-square social-icon em1h text-middle"></i> +55 (73) 9 9113-6037<br>
                 </div>
             </div>

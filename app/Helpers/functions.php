@@ -11,7 +11,8 @@ function parseLocale()
     // Verifica se o locale passado na URL é válido
     // Se sim, então muda o idioma da aplicação e retorna o locale
     // Se não, então deixa o idioma padrão
-    if (in_array($locale, $languages)) {
+    if (in_array($locale, $languages))
+    {
         App::setLocale($locale);
         return $locale;
     }

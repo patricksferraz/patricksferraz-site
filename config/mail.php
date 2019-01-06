@@ -2,6 +2,11 @@
 
 return [
 
+    'to' => [
+        'address' => 'devferraz@gmail.com',
+        'name' => 'Patrick Silva Ferraz'
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Mail Driver

@@ -2,20 +2,25 @@
 
 namespace patricksferraz\Http\Controllers;
 
+use patricksferraz\Mail\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class WelcomeController extends Controller
 {
 
-    function home() {
+    function home()
+    {
         return view('welcome');
     }
 
-    function contact() {
+    function contact()
+    {
         return view('contact');
     }
 
-    function postContact(Request $request) {
+    function postContact(Request $request)
+    {
         $this->validate($request, [
             'nome' => 'required|between:3,50',
             'telefone' => 'required',
@@ -24,6 +29,19 @@ class WelcomeController extends Controller
             'mensagem' => 'required|max:1000'
         ]);
 
-        var_dump($request->all());
+        Mail::queue(new Contact(
+            $request->nome,
+            $request->telefone,
+            $request->email,
+            $request->assunto,
+            $request->mensagem
+        ));
+
+        $messages = [
+            'messages' => ["Mensagem enviada com sucesso"]
+        ];
+        $messagebag = new \Illuminate\Support\MessageBag($messages);
+
+        return back()->withErrors($messagebag);
     }
 }

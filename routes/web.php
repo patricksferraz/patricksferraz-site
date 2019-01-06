@@ -11,8 +11,10 @@
 |
 */
 
-Route::group(['prefix' => parseLocale(),
-    'as' => 'l.'], function () {
+Route::group([
+    'prefix' => parseLocale(),
+    'as' => 'l.'
+], function () {
 
     //Auth::routes();
     // Página inicial
@@ -26,8 +28,10 @@ Route::group(['prefix' => parseLocale(),
         ->name('postContact');
 
     // Rotas dos projetos
-    Route::group(['prefix' => 'projects',
-        'as' => 'projects.'], function () {
+    Route::group([
+        'prefix' => 'projects',
+        'as' => 'projects.'
+    ], function () {
 
         Route::get('/', 'ProjectsController@index')
             ->name('index');

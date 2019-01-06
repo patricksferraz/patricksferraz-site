@@ -4,13 +4,15 @@ namespace patricksferraz\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ProjectsController extends Controller {
+class ProjectsController extends Controller
+{
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index() {
+    public function index()
+    {
         return view('projects.index');
             // ->with('projects', Project::get());
     }
