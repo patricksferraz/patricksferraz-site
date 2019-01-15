@@ -22743,18 +22743,15 @@ $(document).ready(function() {
 });
 
 $(function(){ //
-    var navbarTop = $('#navbar').offset().top; // retorna a posicao
+    var navbarTop = $('#nav-principal').offset().top; // retorna a posicao
 
     $(window).scroll(function(){ // evento scroll
         var windowTop = $(window).scrollTop();
-        $('#navbar>nav').removeClass("z-depth-0");
 
         if (navbarTop < windowTop) {
-            $('#navbar').addClass("navbar-fixed");
-            $('#navbar>nav').removeClass("z-depth-0");
+            $('#nav-principal').removeClass("z-depth-0");
         } else {
-            $('#navbar').removeClass("navbar-fixed");
-            $('#navbar>nav').addClass("z-depth-0");
+            $('#nav-principal').addClass("z-depth-0");
         }
     });
 });

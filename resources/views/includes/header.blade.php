@@ -1,5 +1,5 @@
-<div id="navbar">
-    <nav class="z-depth-0">
+<div class="navbar-fixed">
+    <nav id="nav-principal" class="z-depth-0">
         <div class="container">
             <div class="nav-wrapper">
                 <a href="{{ url('/', config('app.locale')) }}" class="brand-logo grey-text text-darken-2">
