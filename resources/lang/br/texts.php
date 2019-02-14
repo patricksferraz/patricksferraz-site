@@ -13,7 +13,7 @@ return [
         a inovação e o rompimento de barreiras. A criatividade não tolera limites.',
 
     'more_information_description' => 'Estou a disposição para atendê-lo.
-        Entre em contato e realize um orçamento.',
+        Entre em contato e tire suas dúvidas.',
 
     'footer_message' => 'Desenvolvido com muito :core e :coffee
         por :logo. Todos direitos reservados.'

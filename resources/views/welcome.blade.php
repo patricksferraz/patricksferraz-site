@@ -14,25 +14,29 @@
 
         <div class="row">
 
-            <div class="col m4">
-                <div class="row">
-                    <div class="col s8 offset-s2">
+            <div class="col m12">
+                <div class="row valign-wrapper">
+                    <div class="col s3 offset-s3">
                         <img src="{{ asset('img/patrick.jpg') }}" alt="Patrick Silva Ferraz" class="circle responsive-img">
                     </div>
-                </div>
-                <h6><b>Patrick Silva Ferraz</b></h6>
-                <p>
-                    @lang('texts.grade.master')<br>
-                    @lang('texts.grade.bachelor')
-                </p>
 
-                <div class="grey-text text-darken-3">
-                    <i class="fas fa-envelope-square social-icon em1h text-middle"></i> devferraz@gmail.com<br>
-                    <i class="fab fa-whatsapp-square social-icon em1h text-middle"></i> +55 (73) 9 9113-6037<br>
+                    <div class="col s6">
+                        <h6><b>Patrick Silva Ferraz</b></h6>
+                        <p>
+                            @lang('texts.grade.master')<br>
+                            @lang('texts.grade.bachelor')
+                        </p>
+
+                        <div class="grey-text text-darken-3">
+                            <i class="fas fa-envelope-square social-icon em1h text-middle"></i> devferraz@gmail.com<br>
+                            <i class="fab fa-whatsapp-square social-icon em1h text-middle"></i> +55 (73) 9 9113-6037<br>
+                            <i class="fab fa-slack social-icon em1h text-middle"></i> patrick.ferraz@outlook.com<br>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="col m8">
+            <div class="col m12">
                 <blockquote>
                     <h6><b>
                         @lang('titles.about')
@@ -43,41 +47,30 @@
                 </p>
 
                 <blockquote>
-                    <h6><b>
-                        @lang('titles.system_development')
-                    </b></h6>
+                    <h6>
+                        <b>@lang('titles.skills')</b>
+                        <i class="fab fa-android right social-icon"></i>
+                        <i class="fab fa-markdown right social-icon"></i>
+                        <i class="fab fa-r-project right social-icon"></i>
+                        <i class="fab fa-python right social-icon"></i>
+                        <i class="fab fa-digital-ocean right social-icon"></i>
+                        <i class="fab fa-wordpress right social-icon"></i>
+                        <i class="fab fa-laravel right social-icon"></i>
+                        <i class="fab fa-php right social-icon"></i>
+                        <i class="fab fa-js-square right social-icon"></i>
+                        <i class="fab fa-css3-alt right social-icon"></i>
+                        <i class="fab fa-html5 right social-icon"></i>
+                        <i class="fab fa-java right social-icon"></i>
+                        <i class="fab fa-git right social-icon"></i>
+                        <i class="fab fa-linux right social-icon"></i>
+                        <i class="fab fa-microsoft right social-icon"></i>
+                    </h6>
                 </blockquote>
-                <div class="row center">
-                    <div class="col s3">
-                        <a href="" class="grey-text text-darken-1 grey-link">
-                            <i class="material-icons circle icon-border">devices</i><br>
-                            @lang('buttons.web')
-                        </a>
-                    </div>
-                    <div class="col s3">
-                        <a href="" class="grey-text text-darken-1 grey-link">
-                            <i class="material-icons circle icon-border">devices_other</i><br>
-                            @lang('buttons.mobile')
-                        </a>
-                    </div>
-                    <div class="col s3">
-                        <a href="" class="grey-text text-darken-1 grey-link">
-                            <i class="material-icons circle icon-border">developer_board</i><br>
-                            @lang('buttons.embedded')
-                        </a>
-                    </div>
-                    <div class="col s3">
-                        <a href="" class="grey-text text-darken-1 grey-link">
-                            <i class="material-icons circle icon-border">lightbulb_outline</i><br>
-                            @lang('buttons.use_imagination')
-                        </a>
-                    </div>
-                </div>
 
                 <div class="row">
                     <div class="col s12">
-                        <a href="" class="right grey-text text-darken-1 grey-link">
-                            @lang('buttons.see_portfolio')
+                        <a target="_blank" href="{{ url('https://github.com/patricksferraz') }}" class="grey-text text-darken-1 grey-link">
+                            <i class="fas fa-ellipsis-h right social-icon"> Ver mais</i>
                         </a>
                     </div>
                 </div>

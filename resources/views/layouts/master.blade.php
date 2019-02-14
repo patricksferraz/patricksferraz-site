@@ -9,7 +9,7 @@
 
     <link rel="icon" type="image/png" href="{{ mix('favicon.png') }}">
     <link href="{{ url('https://fonts.googleapis.com/icon?family=Material+Icons') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url('https://use.fontawesome.com/releases/v5.6.3/css/all.css') }}" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url('https://use.fontawesome.com/releases/v5.7.2/css/all.css') }}" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
     @section('headCss')
         <link rel="stylesheet" type="text/css" href="{{ mix('css/all.css') }}"/>

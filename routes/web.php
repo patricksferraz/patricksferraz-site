@@ -16,7 +16,6 @@ Route::group([
     'as' => 'l.'
 ], function () {
 
-    //Auth::routes();
     // Página inicial
     Route::get('/', 'WelcomeController@home')
         ->name('home');
@@ -26,16 +25,5 @@ Route::group([
         ->name('contact');
     Route::post('contact', 'WelcomeController@postContact')
         ->name('postContact');
-
-    // Rotas dos projetos
-    Route::group([
-        'prefix' => 'projects',
-        'as' => 'projects.'
-    ], function () {
-
-        Route::get('/', 'ProjectsController@index')
-            ->name('index');
-
-    });
 
 });

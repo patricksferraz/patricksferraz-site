@@ -8,8 +8,8 @@
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger deep-purple-text text-accent-2"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href=""><i class="material-icons">apps</i></a></li>
-                    <li><a href=""><i class="material-icons">notifications</i></a></li>
-                    <li><a class="btn-floating" href=""><i class="material-icons">person</i></a></li>
+                    {{-- <li><a href=""><i class="material-icons">notifications</i></a></li>
+                    <li><a class="btn-floating" href=""><i class="material-icons">person</i></a></li> --}}
                 </ul>
             </div>
         </div>
@@ -23,9 +23,9 @@
     <li><a href=""><i class="material-icons">apps</i>
         @lang('buttons.menu')
     </a></li>
-    <li><a href=""><i class="material-icons">notifications</i>
+    {{-- <li><a href=""><i class="material-icons">notifications</i>
         @lang('buttons.notifications')
-    </a></li>
+    </a></li> --}}
     {{-- TODO: Adicionar nome de usuário has login --}}
-    <li><a href=""><i class="material-icons">person</i></a> name_user</li>
+    {{-- <li><a href=""><i class="material-icons">person</i></a> name_user</li> --}}
 </ul>
