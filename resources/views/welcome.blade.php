@@ -16,11 +16,11 @@
 
             <div class="col m12">
                 <div class="row valign-wrapper">
-                    <div class="col s3 offset-s3">
+                    <div class="col m3 offset-m3 s4">
                         <img src="{{ asset('img/patrick.jpg') }}" alt="Patrick Silva Ferraz" class="circle responsive-img">
                     </div>
 
-                    <div class="col s6">
+                    <div class="col m6 s8">
                         <h6><b>Patrick Silva Ferraz</b></h6>
                         <p>
                             @lang('texts.grade.master')<br>
